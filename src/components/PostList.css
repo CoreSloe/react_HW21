@@ -1,0 +1,136 @@
+/* PostList.css */
+
+.post {
+  border: 1px solid #ddd;
+  box-shadow: 15px 20px 20px 5px #cbcbcb;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 900px;
+  background-color: #666f7f;
+  border-radius: 15px;
+}
+
+.post-content-container {
+  width: 100%;
+}
+
+.post-image-container {
+  width: 100%;
+  position: relative;
+}
+
+.post-author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.post-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name {
+  text-align: start;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+}
+
+.author-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.author-nickname {
+  font-size: 14px;
+  margin: 0;
+  text-align: start;
+}
+
+.post-content {
+  text-align: start;
+  margin: 10px 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.post-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Змінити align-items на flex-start */
+  margin-bottom: 10px; /* Додати margin-bottom для розділення зображення від іконок */
+}
+
+.post-image {
+  width: 800px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 958px;
+  justify-content: space-around;
+}
+
+.social-icon {
+  font-size: 20px;
+  color: #007bff;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.post-date {
+  margin: 0;
+  font-size: 14px;
+  text-align: start;
+}
+
+.post-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+
+.post-icons span {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.post-icons span svg {
+  margin-right: 5px; /* Відступ між іконкою і текстом */
+}
+
+/* Стилі для кожної окремої іконки (приклад для коментарів) */
+.comment-icon {
+  color: #0e2945; /* Колір іконки коментарів */
+}
+
+.repost-icon {
+  color: #0e2945; /* Колір іконки репостів */
+}
+
+.like-icon {
+  color: #0e2945; /* Колір іконки лайків */
+}
+
+.download-icon {
+  color: #0e2945; /* Колір іконки завантажень */
+}
